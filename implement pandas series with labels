@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Creating a Pandas Series with labels
+marks = pd.Series([88,76,90,85],
+index=['Maths','Physics','chemistry','Biology'])
+
+print("Pandas Series with Labels:")
+print(marks)
+
+output:
+Pandas Series with Labels:
+Maths        88
+Physics      76
+chemistry    90
+Biology      85
+dtype: int64
