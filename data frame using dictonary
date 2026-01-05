@@ -1,0 +1,21 @@
+import pandas as pd
+
+# Creating DataFrame using dictonary
+data={
+    'Name':['Ravi','Sita','Kumar','Anu'],
+    'Age':[20,19,21,20],
+    'Marks':[85,90,78,88]
+}
+
+df=pd.DataFrame(data)
+
+print("\nPandas DataFrame:")
+print(df)
+
+output:
+Pandas DataFrame:
+    Name  Age  Marks
+0   Ravi   20     85
+1   Sita   19     90
+2  Kumar   21     78
+3    Anu   20     88
