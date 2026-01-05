@@ -1,0 +1,23 @@
+import pandas as pd
+
+#Dictonary data
+student_age = {
+    'Ravi':20,
+    'Sita':19,
+    'Kumar':21,
+    'Anu':20
+}
+
+# Creating Series from dictonary
+age_series = pd.Series(student_age)
+
+print("\nPandas Series from Dictonary:")
+print(age_series)
+
+output:
+Pandas Series from Dictonary:
+Ravi     20
+Sita     19
+Kumar    21
+Anu      20
+dtype: int64
